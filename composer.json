@@ -1,0 +1,22 @@
+{
+    "name": "peterlozano/kafka-php-test",
+    "description": "Testing PHP messaging via Kafka.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Lozano",
+            "email": "peterlozano@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1",
+        "enqueue/rdkafka": "^0.8.40",
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
