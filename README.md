@@ -28,7 +28,7 @@ docker-compose run console kafka:producer
 
 ## Commands help
 
-### Producer
+### Producer
 
 ````
 Description:
